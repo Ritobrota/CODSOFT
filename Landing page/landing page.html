@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <style>
+        *{padding: 0; margin: 0; box-sizing: border-box;}
+        header{
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url('2.jpg');
+            background-size: cover;
+        }
+        nav{
+            width: 100%;
+            height: 100px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .menu a{
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            font-size: 20px;
+            text-decoration: none;
+            position: relative;
+            transition: 0.8s;
+        }
+        .menu a:hover{
+            
+        }
+        .Logo{
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        .Login a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 10px 30px;
+            background: rgba(255, 177, 52, 0.638);
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+        .Login a:hover{
+            color: black;
+            background:  white;
+        }
+        .text{
+            max-width: 850px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text h1{
+            font-size: 2em;
+            letter-spacing: 4px;
+            padding: 2px 0px;
+        }
+        .text span{
+            letter-spacing: 1px;   
+        }
+        .text a{
+            text-decoration: none;
+            color: white;
+            padding: 12px 20px;
+            background: rgba(255, 177, 52, 0.638);
+            letter-spacing: 2px;
+            transform: 0.8s;
+        }
+        .hover-effect{
+            text-decoration: none;
+            color: white;
+            padding: 12px 20px;
+            background: rgba(255, 177, 52, 0.638);
+            letter-spacing: 2px;
+            transform: 0.8s;
+        }
+        .hover-effect:hover{
+            color: black;
+            background:  white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="Logo">
+                Film X
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Courses</a>
+                <a href="#">Templates</a>
+                <a href="#">Stock Clips</a>
+                <a href="#">Presets</a>
+            </div>
+            <div class="Login">
+                <a href="#">Log in</a>
+            </div>
+        </nav>
+        <section class="text">
+            <h1>Learn Filmmaking, Video Editing And VFX</h1>
+            <span>Join Over 400,000+ Students In Our Award Winning CoursesJoin Over 400,000+ Students In Our Award Winning Courses</span>
+            <br>
+            <br>
+            <a href="#" class="hover-effect">Bojdnf ></a>
+        </section>
+    </header>
+</body>
+</html>
